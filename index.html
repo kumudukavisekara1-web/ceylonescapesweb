@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceylon Escapes | Discover Sri Lanka Tourism &amp; Travel</title>
+  <meta name="description" content="Discover Sri Lanka through destinations, cultural experiences, wildlife, beaches, adventure, wellness, food and hospitality experiences.">
+  <meta name="keywords" content="Sri Lanka tourism, Sri Lanka travel, Sri Lanka holidays, Sri Lanka tours, Sri Lanka honeymoon, Sri Lanka wildlife, Sri Lanka beaches, Sri Lanka culture, Sri Lanka hospitality, Sri Lanka travel packages">
+  
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Ceylon Escapes | Discover Sri Lanka Tourism &amp; Travel">
+  <meta property="og:description" content="Discover Sri Lanka through destinations, cultural experiences, wildlife, beaches, adventure, wellness, food and hospitality experiences.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ceylonescapes.lk">
+  <meta property="og:image" content="images/hero.jpg">
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Site Header -->
+  <header class="site-header" role="banner">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Ceylon Escapes Homepage">
+        <span class="brand-name">Ceylon Escapes</span>
+        <span class="brand-sub">Discover Sri Lanka</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Menu -->
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="destinations.html" class="nav-link">Destinations</a>
+        <a href="experiences.html" class="nav-link">Experiences</a>
+        <a href="tours.html" class="nav-link">Tours</a>
+        <a href="stays.html" class="nav-link">Stays</a>
+        <a href="food-culture.html" class="nav-link">Food &amp; Culture</a>
+        <a href="wildlife.html" class="nav-link">Wildlife</a>
+        <a href="travel-guide.html" class="nav-link">Travel Guide</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-accent btn-sm">Plan Your Trip</a>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- 1. Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg">
+        <img src="images/hero.jpg" alt="Sigiriya Rock Fortress rising dramatically above the emerald jungle canopy at sunrise in central Sri Lanka" loading="eager">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">Authentic Island Escapes</div>
+        <h1 id="hero-heading">Discover the Soul of Sri Lanka</h1>
+        <p class="lead">Ancient heritage, tropical beaches, misty mountains, extraordinary wildlife and warm island hospitality — all waiting to be explored.</p>
+        <div class="hero-buttons">
+          <a href="#destinations-section" class="btn btn-primary btn-lg">Explore Sri Lanka</a>
+          <a href="contact.html" class="btn btn-outline-white btn-lg">Plan Your Journey</a>
+        </div>
+      </div>
+      <a href="#search-section" class="scroll-indicator" aria-label="Scroll down to travel search">
+        <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+        <span>Scroll to Explore</span>
+      </a>
+    </section>
+
+    <!-- 2. Travel Search Bar -->
+    <section id="search-section" class="search-banner" aria-label="Travel Search Tool">
+      <div class="container">
+        <div class="search-box">
+          <h2 class="search-title">Where will your Sri Lankan journey take you?</h2>
+          <form id="home-travel-search" class="search-form" action="destinations.html" method="GET">
+            <div class="form-group">
+              <label for="search-destination">Destination</label>
+              <select id="search-destination" name="dest" class="form-control">
+                <option value="all">All Destinations</option>
+                <option value="Sigiriya">Sigiriya</option>
+                <option value="Kandy">Kandy</option>
+                <option value="Ella">Ella</option>
+                <option value="Galle">Galle</option>
+                <option value="Nuwara Eliya">Nuwara Eliya</option>
+                <option value="Yala">Yala</option>
+                <option value="Bentota">Bentota</option>
+                <option value="Mirissa">Mirissa</option>
+                <option value="Colombo">Colombo</option>
+                <option value="Dambulla">Dambulla</option>
+                <option value="Trincomalee">Trincomalee</option>
+                <option value="Jaffna">Jaffna</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="search-style">Travel Style</label>
+              <select id="search-style" name="style" class="form-control">
+                <option value="all">Any Style</option>
+                <option value="culture">Culture &amp; Heritage</option>
+                <option value="beach">Tropical Beaches</option>
+                <option value="wildlife">Wildlife Safari</option>
+                <option value="adventure">Active Adventure</option>
+                <option value="wellness">Ayurveda &amp; Wellness</option>
+                <option value="honeymoon">Romantic / Honeymoon</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="search-duration">Duration</label>
+              <select id="search-duration" name="duration" class="form-control">
+                <option value="all">Any Duration</option>
+                <option value="short">03 - 04 Days</option>
+                <option value="medium">05 - 06 Days</option>
+                <option value="long">07+ Days</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="search-month">Travel Month</label>
+              <select id="search-month" name="month" class="form-control">
+                <option value="any">Flexible Timing</option>
+                <option value="jan">January - March (High Season)</option>
+                <option value="apr">April - May (Festive Season)</option>
+                <option value="jun">June - August (East Coast Season)</option>
+                <option value="sep">September - December (Inter-Monsoon)</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-accent btn-lg">Explore</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Introduction -->
+    <section class="section section-sand" aria-labelledby="intro-heading">
+      <div class="container">
+        <div class="grid grid-2" style="align-items: center;">
+          <div>
+            <span class="section-tag">Welcome to Sri Lanka</span>
+            <h2 id="intro-heading">One Island. Endless Experiences.</h2>
+            <p class="lead">Sri Lanka is a compact island destination where remarkable diversity can be experienced within a relatively short journey.</p>
+            <p>Travellers can explore ancient heritage sites, sacred temples, tropical beaches, tea-covered mountains, wildlife-rich national parks, vibrant cities and distinctive culinary traditions. Whether you seek the peaceful stillness of an ancient rock monastery or the rush of Indian Ocean surf, Sri Lanka offers an authentic encounter with nature, history, and people.</p>
+            <div style="margin-top: 1.8rem;">
+              <a href="destinations.html" class="btn btn-primary">Discover Sri Lanka</a>
+            </div>
+          </div>
+          <div>
+            <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-lg); position: relative;">
+              <img src="images/colombo.jpg" alt="Colombo coastal skyline and Indian Ocean surf seen from Galle Face Green" style="width: 100%; height: 420px; object-fit: cover;">
+              <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 1.2rem; background: linear-gradient(0deg, rgba(15,37,27,0.85), transparent); color: #fff; font-size: 0.85rem;">
+                <strong>Colombo:</strong> Where contemporary island energy meets colonial heritage
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Featured Destinations Directory -->
+    <section id="destinations-section" class="section section-white" aria-labelledby="featured-dest-heading">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">Destinations</span>
+          <h2 id="featured-dest-heading">Explore Sri Lanka</h2>
+          <p>Discover destinations shaped by history, nature, culture and coastal beauty.</p>
+        </div>
+
+        <!-- Destination Filter Buttons -->
+        <div class="filter-nav" role="toolbar" aria-label="Destination Categories">
+          <button class="filter-btn dest-filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn dest-filter-btn" data-filter="culture">Culture</button>
+          <button class="filter-btn dest-filter-btn" data-filter="beach">Beach</button>
+          <button class="filter-btn dest-filter-btn" data-filter="nature">Nature</button>
+          <button class="filter-btn dest-filter-btn" data-filter="wildlife">Wildlife</button>
+          <button class="filter-btn dest-filter-btn" data-filter="adventure">Adventure</button>
+          <button class="filter-btn dest-filter-btn" data-filter="wellness">Wellness</button>
+        </div>
+
+        <!-- 12 Destination Cards -->
+        <div class="grid grid-4" id="destinations-grid">
+
+          <!-- Colombo -->
+          <article class="card dest-card" data-category="culture nature">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Urban &amp; Heritage</span>
+              <img src="images/colombo.jpg" alt="Modern Colombo city skyline and Indian Ocean coastline seen from Galle Face Green" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Colombo</h3>
+              <p class="card-text">Sri Lanka's vibrant oceanfront commercial capital, offering historic colonial quarters, sunset promenades along Galle Face Green, and Gangaramaya Temple.</p>
+              <div class="card-meta">
+                <span>Suggested: 1 - 2 Days</span>
+                <a href="destinations.html#colombo" class="btn-link">Explore Colombo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Kandy -->
+          <article class="card dest-card" data-category="culture nature wellness">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Cultural Capital</span>
+              <img src="images/kandy.jpg" alt="Sacred Temple of the Tooth Relic overlooking the tranquil waters of Kandy Lake" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Kandy</h3>
+              <p class="card-text">The last royal kingdom nestled among mist-clad hills, home to the sacred Temple of the Sacred Tooth Relic (Sri Dalada Maligawa) and serene Kandy Lake.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 - 3 Days</span>
+                <a href="destinations.html#kandy" class="btn-link">Explore Kandy &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sigiriya -->
+          <article class="card dest-card" data-category="culture nature adventure">
+            <div class="card-img-wrapper">
+              <span class="card-badge">UNESCO Citadel</span>
+              <img src="images/sigiriya.jpg" alt="Ancient Sigiriya Rock Fortress rising dramatically above the emerald forest canopy in central Sri Lanka" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Sigiriya</h3>
+              <p class="card-text">The monumental 5th-century palace fortress of King Kashyapa, rising 200 metres sheer above ancient royal water gardens and forest canopies.</p>
+              <div class="card-meta">
+                <span>Suggested: 1 - 2 Days</span>
+                <a href="destinations.html#sigiriya" class="btn-link">Explore Sigiriya &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dambulla -->
+          <article class="card dest-card" data-category="culture nature">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Sacred Caves</span>
+              <img src="images/dambulla.jpg" alt="Ancient painted rock caves and serene gilded Buddha statues inside Dambulla Cave Temple" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Dambulla</h3>
+              <p class="card-text">A vast living monastery complex housing five ancient caves adorned with over 2,000 square metres of sacred murals and 153 carved Buddha statues.</p>
+              <div class="card-meta">
+                <span>Suggested: 1 Day</span>
+                <a href="destinations.html#dambulla" class="btn-link">Explore Dambulla &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Nuwara Eliya -->
+          <article class="card dest-card" data-category="nature wellness adventure">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Highland Tea</span>
+              <img src="images/nuwara-eliya.jpg" alt="Verdant emerald tea terraces and mist-covered hills in Nuwara Eliya" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Nuwara Eliya</h3>
+              <p class="card-text">Highland tea country at 1,868m elevation, renowned for crisp mountain air, historic colonial bungalows, Lake Gregory, and world-famous Ceylon tea estates.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 - 3 Days</span>
+                <a href="destinations.html#nuwara-eliya" class="btn-link">Explore Nuwara Eliya &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Ella -->
+          <article class="card dest-card" data-category="nature adventure">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Mountain Trails</span>
+              <img src="images/ella.jpg" alt="Historic colonial-era Nine Arch viaduct bridge nestled amidst lush tea hills in Ella" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Ella</h3>
+              <p class="card-text">A laidback mountain village encircled by cloud forests, the architectural marvel of the Nine Arch Bridge, hiking routes to Little Adam's Peak, and Ravana Falls.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 - 3 Days</span>
+                <a href="destinations.html#ella" class="btn-link">Explore Ella &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Galle -->
+          <article class="card dest-card" data-category="culture beach">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Colonial Bastion</span>
+              <img src="images/galle.jpg" alt="Iconic whitewashed colonial Galle Lighthouse standing over UNESCO World Heritage Galle Fort ramparts" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Galle</h3>
+              <p class="card-text">A living UNESCO World Heritage fortified city built by the Portuguese and Dutch, featuring cobblestone streets, artisan boutiques, and the oceanfront Lighthouse.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 Days</span>
+                <a href="destinations.html#galle" class="btn-link">Explore Galle &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Bentota -->
+          <article class="card dest-card" data-category="beach adventure wellness">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Golden Coast</span>
+              <img src="images/bentota.jpg" alt="Sweeping golden sands and swaying coconut palms along Bentota tropical coastline" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Bentota</h3>
+              <p class="card-text">Sri Lanka's premier coastal haven for water sports, lagoon river safaris through mangrove tunnels, and tranquil Ayurveda beachfront wellness sanctuaries.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 - 3 Days</span>
+                <a href="destinations.html#bentota" class="btn-link">Explore Bentota &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Yala -->
+          <article class="card dest-card" data-category="wildlife adventure">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Leopard Sanctuary</span>
+              <img src="images/yala.jpg" alt="Endangered Sri Lankan leopard resting gracefully on granite rocks in Yala National Park" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Yala</h3>
+              <p class="card-text">Sri Lanka's most renowned wildlife destination, boasting one of the world's highest densities of wild leopards, along with elephants, sloth bears, and crocodiles.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 Days</span>
+                <a href="destinations.html#yala" class="btn-link">Explore Yala &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Mirissa -->
+          <article class="card dest-card" data-category="beach wildlife adventure">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Ocean &amp; Whales</span>
+              <img src="images/mirissa.jpg" alt="Scenic headland of Coconut Tree Hill overlooking the turquoise Indian Ocean in Mirissa" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Mirissa</h3>
+              <p class="card-text">A picturesque southern crescent bay famous for the palm-dotted Coconut Tree Hill, vibrant beach cafes, and responsible oceanic Blue Whale watching excursions.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 - 3 Days</span>
+                <a href="destinations.html#mirissa" class="btn-link">Explore Mirissa &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Trincomalee -->
+          <article class="card dest-card" data-category="beach culture nature">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Eastern Horizon</span>
+              <img src="images/exp-beach.jpg" alt="Vibrant coastline of Nilaveli Beach and turquoise ocean waters in Trincomalee" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Trincomalee</h3>
+              <p class="card-text">Deep-water natural port of the northeast, blessed with powdered white sands of Nilaveli, Pigeon Island coral reef snorkelling, and cliff-top Koneswaram Temple.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 - 3 Days</span>
+                <a href="destinations.html#trincomalee" class="btn-link">Explore Trincomalee &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Jaffna -->
+          <article class="card dest-card" data-category="culture">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Northern Soul</span>
+              <img src="images/jaffna.jpg" alt="Historic ramparts of Jaffna Fort and cultural landmarks of Northern Sri Lanka" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Jaffna</h3>
+              <p class="card-text">The vibrant cultural hub of the northern peninsula, featuring golden gopurams of Nallur Kandaswamy Kovil, historic coastal Dutch Fort, and distinct spicy seafood cuisine.</p>
+              <div class="card-meta">
+                <span>Suggested: 2 - 3 Days</span>
+                <a href="destinations.html#jaffna" class="btn-link">Explore Jaffna &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Choose Your Experience -->
+    <section class="section section-sand" aria-labelledby="exp-heading">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">Curated Travel</span>
+          <h2 id="exp-heading">Choose Your Experience</h2>
+          <p>Six transformative ways to connect with the island's natural rhythms, cultural tapestry, and living traditions.</p>
+        </div>
+
+        <div class="grid grid-3">
+
+          <div class="card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Coastal Bliss</span>
+              <img src="images/exp-beach.jpg" alt="Idyllic tropical beach with golden sands and azure surf on Sri Lanka south coast" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Beach Escapes</h3>
+              <p class="card-text">Over 1,300 kilometres of tropical coastline, from the surf breaks of Weligama and Arugam Bay to the serene golden stretches of Bentota and Nilaveli.</p>
+              <a href="experiences.html#beach" class="btn-link">Discover Beaches &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Ancient Wisdom</span>
+              <img src="images/exp-culture.jpg" alt="Traditional Kandyan dancers in ceremonial regalia performing heritage ritual dance" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Culture &amp; Heritage</h3>
+              <p class="card-text">Explore eight UNESCO World Heritage Sites, sacred Buddhist stupas, ornate Hindu kovils, traditional Kandyan drumming, and multi-faith island heritage.</p>
+              <a href="experiences.html#culture" class="btn-link">Explore Heritage &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Into the Wild</span>
+              <img src="images/exp-wildlife.jpg" alt="Family herd of wild Asian elephants grazing across open grasslands in Sri Lanka" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Wildlife &amp; Nature</h3>
+              <p class="card-text">Experience the "Big Five" of Sri Lanka: wild Asian elephants, leopards, sloth bears, blue whales, and sperm whales in protected habitats.</p>
+              <a href="experiences.html#wildlife" class="btn-link">Meet the Wildlife &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Active Journeys</span>
+              <img src="images/exp-adventure.jpg" alt="Trekker hiking along mountain ridges overlooking dramatic valleys near Ella" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Adventure</h3>
+              <p class="card-text">Trek through mist-veiled knuckles ridges, scale Adam's Peak at sunrise, navigate white water rapids in Kitulgala, or catch trade winds kitesurfing in Kalpitiya.</p>
+              <a href="experiences.html#adventure" class="btn-link">Start Adventuring &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Holistic Rejuvenation</span>
+              <img src="images/exp-wellness.jpg" alt="Traditional Sri Lankan Ayurvedic herbal oil treatment and serene wellness retreat" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Wellness &amp; Ayurveda</h3>
+              <p class="card-text">Restore body and mind through a 3,000-year-old indigenous healing tradition using medicinal herbs, therapeutic oils, daily yoga, and mindful meditation.</p>
+              <a href="experiences.html#wellness" class="btn-link">Experience Wellness &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Culinary Heritage</span>
+              <img src="images/exp-food.jpg" alt="Vibrant Sri Lankan rice and curry spread featuring fragrant curries and coconut sambol" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Food &amp; Culinary</h3>
+              <p class="card-text">Indulge in a symphony of aromatic spices, fresh coconut milk curries, sizzling kottu roti, crispy hoppers, and freshly plucked Ceylon highland teas.</p>
+              <a href="experiences.html#food" class="btn-link">Taste the Island &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Why Sri Lanka: 8 Value Cards -->
+    <section class="section section-white" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Island Advantages</span>
+          <h2 id="why-heading">Why Sri Lanka?</h2>
+          <p>A compact paradise combining geographic convenience with boundless natural and cultural depth.</p>
+        </div>
+
+        <div class="grid grid-4">
+
+          <div class="feature-card">
+            <div class="feature-icon-box">🏛️</div>
+            <h4>Rich Cultural Heritage</h4>
+            <p>Over 2,500 years of documented royal chronicles, hydraulic engineering marvels, and eight UNESCO World Heritage monuments.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">🏖️</div>
+            <h4>Tropical Beaches</h4>
+            <p>Golden and palm-shaded beaches wrapping the entire island, with distinct climate zones offering year-round sunshine.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">🐘</div>
+            <h4>Diverse Wildlife</h4>
+            <p>Globally recognized biodiversity hotspot featuring the highest density of Asian elephants and leopards in protected national reserves.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">⛰️</div>
+            <h4>Scenic Mountains</h4>
+            <p>Lush central highlands draped in emerald tea gardens, majestic waterfalls, and historic highland railways.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">🍛</div>
+            <h4>Authentic Cuisine</h4>
+            <p>Flavorful indigenous culinary culture driven by native Ceylon cinnamon, spices, coconut milk, and coastal ocean seafood.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">🌺</div>
+            <h4>Warm Hospitality</h4>
+            <p>Renowned for genuine, heartfelt island hospitality and smiling "Ayubowan" greetings that make travellers feel immediately at home.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">🏄‍♂️</div>
+            <h4>Adventure</h4>
+            <p>Superb surf swells, mountain trekking trails, deep sea sport, and zip-lining, all accessible within a few hours' travel.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">🌿</div>
+            <h4>Wellness</h4>
+            <p>Authentic Ayurveda sanctified by nature, offering genuine therapeutic treatments guided by qualified Ayurvedic physicians.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Featured Tours (6 Packages with Sample Pricing & Itinerary Modals) -->
+    <section class="section section-sand" aria-labelledby="tours-heading">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">Curated Itineraries</span>
+          <h2 id="tours-heading">Journeys Worth Taking</h2>
+          <p>Thoughtfully crafted itineraries designed around regional highlights, seasonal rhythms, and authentic local encounters.</p>
+        </div>
+
+        <div class="grid grid-3">
+
+          <!-- 1. Glimpse of Sri Lanka -->
+          <article class="card tour-card" data-style="culture beach" data-duration="short">
+            <div class="card-img-wrapper">
+              <span class="card-badge">03 Nights / 04 Days</span>
+              <img src="images/tour-glimpse.jpg" alt="Picturesque cultural vista of Kandy Lake and temple hill country" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tour-route">📍 Route: Kandy – Down South</div>
+              <h3 class="card-title">Glimpse of Sri Lanka</h3>
+              <p class="card-text">A concise discovery itinerary balancing sacred highland spirituality in royal Kandy with the relaxed ocean breezes of the southern coast.</p>
+              
+              <ul class="tour-highlights">
+                <li>Temple of the Tooth Relic in Kandy</li>
+                <li>Peradeniya Royal Botanical Gardens</li>
+                <li>Historic UNESCO Galle Fort &amp; Lighthouse</li>
+              </ul>
+
+              <div class="tour-price-box">
+                <span class="tour-price-label">SAMPLE PRICE</span>
+                <span class="tour-price-val">From $480 USD / Person</span>
+                <small style="display:block; font-size: 0.72rem; color: var(--color-gray-medium); margin-top: 2px;">Enquire for current rate &amp; inclusions</small>
+              </div>
+
+              <div style="display: flex; gap: 0.8rem; margin-top: auto;">
+                <button class="btn btn-primary btn-sm view-tour-modal-btn" data-tour="glimpse-of-sri-lanka" style="flex-grow: 1;">View Details</button>
+                <a href="contact.html?tour=Glimpse%20of%20Sri%20Lanka" class="btn btn-outline btn-sm">Enquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Classic Sri Lanka -->
+          <article class="card tour-card" data-style="culture nature beach" data-duration="medium">
+            <div class="card-img-wrapper">
+              <span class="card-badge">05 Nights / 06 Days</span>
+              <img src="images/tour-classic.jpg" alt="Scenic rail journey through mist-covered tea plantations in central Sri Lanka" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tour-route">📍 Route: Sigiriya – Kandy – Nuwara Eliya – Bentota</div>
+              <h3 class="card-title">Classic Sri Lanka</h3>
+              <p class="card-text">The quintessential island circuit taking you from ancient monolithic palaces through rolling tea gardens down to golden beaches.</p>
+              
+              <ul class="tour-highlights">
+                <li>Sunrise ascent of Sigiriya Rock Fortress</li>
+                <li>Dambulla Golden Cave Temple monasteries</li>
+                <li>Nuwara Eliya Ceylon tea plantation tasting</li>
+                <li>Bentota tropical beach relaxation</li>
+              </ul>
+
+              <div class="tour-price-box">
+                <span class="tour-price-label">SAMPLE PRICE</span>
+                <span class="tour-price-val">From $790 USD / Person</span>
+                <small style="display:block; font-size: 0.72rem; color: var(--color-gray-medium); margin-top: 2px;">Enquire for current rate &amp; inclusions</small>
+              </div>
+
+              <div style="display: flex; gap: 0.8rem; margin-top: auto;">
+                <button class="btn btn-primary btn-sm view-tour-modal-btn" data-tour="classic-sri-lanka" style="flex-grow: 1;">View Details</button>
+                <a href="contact.html?tour=Classic%20Sri%20Lanka" class="btn btn-outline btn-sm">Enquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Sri Lanka Highlights -->
+          <article class="card tour-card" data-style="culture nature adventure beach" data-duration="long">
+            <div class="card-img-wrapper">
+              <span class="card-badge">06 Nights / 07 Days</span>
+              <img src="images/tour-highlights.jpg" alt="Blue express train crossing the iconic stone Nine Arch Bridge in Ella" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tour-route">📍 Route: Sigiriya – Kandy – Nuwara Eliya – Ella – Bentota</div>
+              <h3 class="card-title">Sri Lanka Highlights</h3>
+              <p class="card-text">A comprehensive flagship journey featuring the scenic mountain railway across the Nine Arch Bridge, misty tea peaks, and serene southern shores.</p>
+              
+              <ul class="tour-highlights">
+                <li>Sigiriya Citadel &amp; Kandy Tooth Relic</li>
+                <li>Iconic highland train ride to Ella</li>
+                <li>Nine Arch Bridge &amp; Little Adam's Peak hike</li>
+                <li>Golden sands of Bentota beach</li>
+              </ul>
+
+              <div class="tour-price-box">
+                <span class="tour-price-label">SAMPLE PRICE</span>
+                <span class="tour-price-val">From $920 USD / Person</span>
+                <small style="display:block; font-size: 0.72rem; color: var(--color-gray-medium); margin-top: 2px;">Enquire for current rate &amp; inclusions</small>
+              </div>
+
+              <div style="display: flex; gap: 0.8rem; margin-top: auto;">
+                <button class="btn btn-primary btn-sm view-tour-modal-btn" data-tour="sri-lanka-highlights" style="flex-grow: 1;">View Details</button>
+                <a href="contact.html?tour=Sri%20Lanka%20Highlights" class="btn btn-outline btn-sm">Enquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Romantic Sri Lanka -->
+          <article class="card tour-card" data-style="honeymoon wellness beach" data-duration="medium">
+            <div class="card-img-wrapper">
+              <span class="card-badge">05 Nights / 06 Days</span>
+              <img src="images/tour-romantic.jpg" alt="Golden sunset with silhouette of palm trees over secluded Sri Lankan beach for couples" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tour-route">📍 Route: Cultural Triangle – Nuwara Eliya – Mirissa</div>
+              <h3 class="card-title">Romantic Sri Lanka</h3>
+              <p class="card-text">Thoughtfully tailored for honeymooners and couples, featuring private boutique bungalows, candlelit ocean dining, and secluded coastal sunsets.</p>
+              
+              <ul class="tour-highlights">
+                <li>Private plunge pools &amp; boutique tea estates</li>
+                <li>Couples' restorative Ayurvedic herbal ritual</li>
+                <li>Sunset champagne over Coconut Tree Hill</li>
+                <li>Cobblestone evening stroll inside Galle Fort</li>
+              </ul>
+
+              <div class="tour-price-box">
+                <span class="tour-price-label">SAMPLE PRICE</span>
+                <span class="tour-price-val">From $1,150 USD / Person</span>
+                <small style="display:block; font-size: 0.72rem; color: var(--color-gray-medium); margin-top: 2px;">Enquire for current rate &amp; inclusions</small>
+              </div>
+
+              <div style="display: flex; gap: 0.8rem; margin-top: auto;">
+                <button class="btn btn-primary btn-sm view-tour-modal-btn" data-tour="romantic-sri-lanka" style="flex-grow: 1;">View Details</button>
+                <a href="contact.html?tour=Romantic%20Sri%20Lanka" class="btn btn-outline btn-sm">Enquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Wild Sri Lanka -->
+          <article class="card tour-card" data-style="wildlife adventure nature" data-duration="long">
+            <div class="card-img-wrapper">
+              <span class="card-badge">06 Nights / 07 Days</span>
+              <img src="images/tour-wild.jpg" alt="Open-top safari jeep traversing the wilderness tracks of Yala National Park" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tour-route">📍 Route: Wilpattu – Minneriya – Udawalawe – Yala</div>
+              <h3 class="card-title">Wild Sri Lanka</h3>
+              <p class="card-text">An expedition designed for nature enthusiasts and wildlife photographers, targeting leopards, wild elephant herds, sloth bears, and marine giants.</p>
+              
+              <ul class="tour-highlights">
+                <li>Wilpattu National Park wilderness game drives</li>
+                <li>The Great Elephant Gathering in Minneriya</li>
+                <li>Yala National Park leopard tracking</li>
+                <li>Mirissa ethical Blue Whale ocean voyage</li>
+              </ul>
+
+              <div class="tour-price-box">
+                <span class="tour-price-label">SAMPLE PRICE</span>
+                <span class="tour-price-val">From $1,050 USD / Person</span>
+                <small style="display:block; font-size: 0.72rem; color: var(--color-gray-medium); margin-top: 2px;">Enquire for current rate &amp; inclusions</small>
+              </div>
+
+              <div style="display: flex; gap: 0.8rem; margin-top: auto;">
+                <button class="btn btn-primary btn-sm view-tour-modal-btn" data-tour="wild-sri-lanka" style="flex-grow: 1;">View Details</button>
+                <a href="contact.html?tour=Wild%20Sri%20Lanka" class="btn btn-outline btn-sm">Enquire Now</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Ramayana Heritage Journey -->
+          <article class="card tour-card" data-style="culture" data-duration="long">
+            <div class="card-img-wrapper">
+              <span class="card-badge">06 Nights / 07 Days</span>
+              <img src="images/tour-ramayana.jpg" alt="Colorful temple carvings at the historic Seetha Amman Temple in Nuwara Eliya" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="tour-route">📍 Route: Chilaw – Kandy – Nuwara Eliya – Ella – Colombo</div>
+              <h3 class="card-title">Ramayana Heritage Journey</h3>
+              <p class="card-text">A cultural journey highlighting selected Ramayana-related sites, sacred legends, and ancient Hindu sanctuaries across the island.</p>
+              
+              <ul class="tour-highlights">
+                <li>Munneswaram &amp; Manavari Kovils in Chilaw</li>
+                <li>Seetha Amman Temple in Nuwara Eliya</li>
+                <li>Ravana Falls &amp; Cave complex near Ella</li>
+                <li>Kelaniya Raja Maha Vihara in Colombo</li>
+              </ul>
+
+              <div class="tour-price-box">
+                <span class="tour-price-label">SAMPLE PRICE</span>
+                <span class="tour-price-val">From $820 USD / Person</span>
+                <small style="display:block; font-size: 0.72rem; color: var(--color-gray-medium); margin-top: 2px;">Enquire for current rate &amp; inclusions</small>
+              </div>
+
+              <div style="display: flex; gap: 0.8rem; margin-top: auto;">
+                <button class="btn btn-primary btn-sm view-tour-modal-btn" data-tour="ramayana-heritage" style="flex-grow: 1;">View Details</button>
+                <a href="contact.html?tour=Ramayana%20Heritage%20Journey" class="btn btn-outline btn-sm">Enquire Now</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="tours.html" class="btn btn-primary btn-lg">Explore All Tour Itineraries</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Sri Lankan Hospitality ("Stay Your Way") -->
+    <section class="section section-white" aria-labelledby="stays-heading">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">Hospitality Products</span>
+          <h2 id="stays-heading">Stay Your Way</h2>
+          <p>From historic colonial tea bungalows to sustainable rainforest eco lodges and coastal sanctuaries.</p>
+        </div>
+
+        <div class="grid grid-3">
+
+          <div class="card stay-card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Luxury &amp; 5-Star</span>
+              <img src="images/stay-luxury.jpg" alt="Private infinity pool overlooking the Indian Ocean at a premier 5-star Sri Lankan resort" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Luxury Beach Resorts</h3>
+              <p class="card-text">World-class architectural marvels designed by Geoffrey Bawa, offering private oceanfront cabanas, infinity pools, and discrete Butler service.</p>
+              <div class="card-meta">
+                <span>Bentota &bull; Tangalle &bull; Pasikuda</span>
+                <a href="stays.html" class="btn-link">View Stays &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card stay-card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Colonial Heritage</span>
+              <img src="images/stay-tea.jpg" alt="Historic colonial tea planters heritage bungalow nestled among rolling green tea estates" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Boutique Tea Bungalows</h3>
+              <p class="card-text">Restored 19th-century planter residences with roaring open fireplaces, antique clawfoot baths, and sweeping views across working tea plantations.</p>
+              <div class="card-meta">
+                <span>Nuwara Eliya &bull; Hatton &bull; Ella</span>
+                <a href="stays.html" class="btn-link">View Stays &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card stay-card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Historic Living</span>
+              <img src="images/stay-boutique.jpg" alt="Charming inner courtyard with colonial arches at a restored boutique hotel in Galle Fort" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Galle Fort Heritage Hotels</h3>
+              <p class="card-text">Intimate boutique mansions within UNESCO ramparts featuring high-ceilinged verandahs, Dutch terracotta tiles, and secluded central courtyards.</p>
+              <div class="card-meta">
+                <span>UNESCO Galle Fort</span>
+                <a href="stays.html" class="btn-link">View Stays &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card stay-card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Low-Impact Living</span>
+              <img src="images/stay-eco.jpg" alt="Eco-friendly treehouse retreat built with sustainable timber overlooking tropical forest" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Rainforest Eco Lodges</h3>
+              <p class="card-text">Timber pavilions constructed on stilts following strict environmental guidelines, powered by solar energy and embedded within bird sanctuaries.</p>
+              <div class="card-meta">
+                <span>Sinharaja &bull; Habarana &bull; Ella</span>
+                <a href="stays.html" class="btn-link">View Stays &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card stay-card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Ayurvedic Sanctuary</span>
+              <img src="images/stay-wellness.jpg" alt="Serene open-air pavilion surrounded by medicinal gardens at an authentic Ayurveda sanctuary" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Wellness &amp; Ayurveda Retreats</h3>
+              <p class="card-text">Dedicated restorative havens providing doctor-consulted herbal regimens, dosha-tailored cuisine, and yoga pavilions set in medicinal herb gardens.</p>
+              <div class="card-meta">
+                <span>Wadduwa &bull; Kalutara &bull; Beruwala</span>
+                <a href="stays.html" class="btn-link">View Stays &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card stay-card">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Exclusive Seclusion</span>
+              <img src="images/stay-villa.jpg" alt="Exclusive beachfront villa with tropical gardens and direct access to pristine sands" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Private Coastal Villas</h3>
+              <p class="card-text">Discreet private sanctuaries designed for families and small groups, staffed with private chefs specializing in fresh catch ocean seafood.</p>
+              <div class="card-meta">
+                <span>Mirissa &bull; Thalpe &bull; Dikwella</span>
+                <a href="stays.html" class="btn-link">View Stays &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="stays.html" class="btn btn-outline btn-lg">Explore Stays Directory</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Food ("A Taste of Sri Lanka") -->
+    <section class="section section-sand" aria-labelledby="food-heading">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">Island Gastronomy</span>
+          <h2 id="food-heading">A Taste of Sri Lanka</h2>
+          <p>Complex spices, creamy coconut milk, and centuries-old culinary traditions. Click any item for authentic cultural notes.</p>
+        </div>
+
+        <div class="food-grid">
+
+          <div class="food-card" data-detail="Sri Lankan rice & curry is a national daily institution consisting of steamed heirloom rice surrounded by five to six vibrant curries, tempered dhal, spicy pol sambol, and crisp papadam.">
+            <img src="images/food-rice-curry.jpg" alt="Traditional Sri Lankan rice and curry feast with dhal, beetroot curry, and pol sambol" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>Rice &amp; Curry</h4>
+              <p>The soul of island dining with fragrant roasted spices.</p>
+            </div>
+          </div>
+
+          <div class="food-card" data-detail="Prepared in bowl-shaped wok pans using fermented rice flour batter and coconut milk, hoppers boast crisp golden lace edges and a soft, pillowy center. Egg hoppers feature an egg dropped into the steaming center.">
+            <img src="images/food-hoppers.jpg" alt="Crispy bowl-shaped rice flour hoppers served with spicy lunu miris and coconut milk" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>Hoppers (Appa)</h4>
+              <p>Crispy lace-edged rice crepes served plain or with an egg.</p>
+            </div>
+          </div>
+
+          <div class="food-card" data-detail="Steamed nests of fine rice vermicelli pressed into circular discs, string hoppers are traditionally paired with mild coconut milk gravy (kiri hodi) and spicy coconut pol sambol.">
+            <img src="images/food-string-hoppers.jpg" alt="Steamed nests of rice vermicelli noodles accompanied by fragrant coconut milk sodhi" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>String Hoppers</h4>
+              <p>Delicate steamed rice noodles with sodhi and pol sambol.</p>
+            </div>
+          </div>
+
+          <div class="food-card" data-detail="The quintessential street food rhythm of Sri Lanka. Shredded godamba flatbread is chopped vigorously on a hot griddle with heavy iron blades, tossed with vegetables, eggs, spices, and rich curry sauce.">
+            <img src="images/food-kottu.jpg" alt="Sizzling kottu roti chopped and tossed with fresh vegetables, spices and eggs" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>Kottu Roti</h4>
+              <p>The iconic rhythmic street food chopped on sizzling hotplates.</p>
+            </div>
+          </div>
+
+          <div class="food-card" data-detail="Sri Lanka's coastline yields abundant seafood, most famously the sweet, colossal Sri Lankan lagoon crab prepared in black pepper sauce or rich red fiery curry with murunga leaves.">
+            <img src="images/food-seafood.jpg" alt="Succulent Sri Lankan black pepper lagoon crab and grilled ocean seafood" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>Fresh Coastal Seafood</h4>
+              <p>Prized lagoon mud crab, jumbo tiger prawns, and yellowfin tuna.</p>
+            </div>
+          </div>
+
+          <div class="food-card" data-detail="Grown at varying elevations from misty Nuwara Eliya (high grown) to Uva and Galle (low grown), Ceylon pure black tea is hand-plucked and processed according to orthodox British-colonial traditions.">
+            <img src="images/food-tea.jpg" alt="Golden Ceylon black tea brewed from fresh hand-picked tea leaves grown in the central highlands" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>Pure Ceylon Tea</h4>
+              <p>Hand-plucked high elevation black tea renowned worldwide.</p>
+            </div>
+          </div>
+
+          <div class="food-card" data-detail="The indigenous golden King Coconut (Thambili) is naturally rich in electrolytes and served roadside straight from the shell. Sri Lanka produces over 29 varieties of banana, along with rambutan and mangosteen.">
+            <img src="images/food-fruits.jpg" alt="Refreshing golden King Coconuts (Thambili) and tropical fruits in Sri Lanka" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>King Coconut &amp; Fruits</h4>
+              <p>Golden Thambili coconut water and luscious tropical orchards.</p>
+            </div>
+          </div>
+
+          <div class="food-card" data-detail="Essential for Sinhala & Tamil New Year (Avurudu), Kavum (deep-fried rice flour honey oil cakes) and Kokis (crispy geometric rosettes) showcase artisanal culinary artistry handed down across centuries.">
+            <img src="images/food-sweets.jpg" alt="Festive Sri Lankan traditional sweets including golden crispy Kokis and oil cakes (Kavum)" loading="lazy">
+            <div class="food-card-overlay">
+              <h4>Festive Island Sweets</h4>
+              <p>Crispy golden Kokis and sweet aromatic oil cakes (Kavum).</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="food-culture.html" class="btn btn-primary btn-lg">Explore Sri Lankan Cuisine &amp; Culture</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Wildlife ("Into the Wild") & Responsible Wildlife Viewing -->
+    <section class="section section-dark" aria-labelledby="wildlife-heading">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">Biodiversity Sanctuary</span>
+          <h2 id="wildlife-heading">Into the Wild</h2>
+          <p>Sri Lanka holds the highest biodiversity density per 10,000 km² among Asian nations.</p>
+        </div>
+
+        <div class="grid grid-3" style="margin-bottom: 3.5rem;">
+
+          <div class="card" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Yala &amp; Wilpattu</span>
+              <img src="images/wild-leopard.jpg" alt="Apex predator Sri Lankan leopard resting in tree branches at Yala National Park" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" style="color: #fff;">Sri Lankan Leopard</h3>
+              <p class="card-text" style="color: #cfd8d4;">The apex predator (<em>Panthera pardus kotiya</em>) is unique to Sri Lanka, having evolved without competition from lions or tigers.</p>
+              <a href="wildlife.html#yala" class="btn-link" style="color: var(--color-accent-light);">Yala &amp; Wilpattu Safaris &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Minneriya &amp; Udawalawe</span>
+              <img src="images/wild-elephant.jpg" alt="Majestic Sri Lankan wild elephant standing in natural scrub forest" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" style="color: #fff;">Asian Wild Elephants</h3>
+              <p class="card-text" style="color: #cfd8d4;">Home to approximately 6,000 wild elephants. Minneriya National Park hosts the world-famous "Great Elephant Gathering" each dry season.</p>
+              <a href="wildlife.html#minneriya" class="btn-link" style="color: var(--color-accent-light);">Elephant Sanctuaries &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);">
+            <div class="card-img-wrapper">
+              <span class="card-badge">Mirissa &amp; Trincomalee</span>
+              <img src="images/wild-whale.jpg" alt="Mighty blue whale fluking its tail in the deep waters off the coast of Mirissa" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" style="color: #fff;">Ocean Giants</h3>
+              <p class="card-text" style="color: #cfd8d4;">Deep marine trenches plunging close to shore make Sri Lanka one of the planet's prime locations for witnessing Blue Whales and sperm whales.</p>
+              <a href="wildlife.html#marine" class="btn-link" style="color: var(--color-accent-light);">Marine Encounters &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Responsible Wildlife Viewing Banner -->
+        <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(223,178,93,0.3); border-radius: var(--radius-md); padding: 2.2rem; margin-top: 2rem;">
+          <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+            <span style="font-size: 1.5rem;">🐾</span>
+            <h3 style="color: var(--color-accent-light); margin-bottom: 0; font-family: var(--font-sans); font-size: 1.25rem;">Travel Responsibly: Wildlife Viewing Ethics</h3>
+          </div>
+          <p style="color: #d1ddd6; font-size: 0.95rem; margin-bottom: 1.2rem;">Ceylon Escapes actively promotes responsible, non-intrusive wildlife encounters that prioritize animal welfare and habitat preservation over tourist proximity.</p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+            <div style="background: rgba(0,0,0,0.25); padding: 1rem; border-radius: var(--radius-sm);">
+              <strong style="color: var(--color-accent); font-size: 0.85rem; text-transform: uppercase;">Maintain Distance:</strong>
+              <p style="font-size: 0.84rem; color: #a9b8b0; margin-bottom: 0;">Safari jeeps must maintain a minimum distance of 30 metres from elephants and leopards.</p>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 1rem; border-radius: var(--radius-sm);">
+              <strong style="color: var(--color-accent); font-size: 0.85rem; text-transform: uppercase;">Never Feed Wildlife:</strong>
+              <p style="font-size: 0.84rem; color: #a9b8b0; margin-bottom: 0;">Feeding alters natural foraging behaviour and increases human-wildlife conflict.</p>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 1rem; border-radius: var(--radius-sm);">
+              <strong style="color: var(--color-accent); font-size: 0.85rem; text-transform: uppercase;">Respect Quietness:</strong>
+              <p style="font-size: 0.84rem; color: #a9b8b0; margin-bottom: 0;">Keep engines off at sightings and speak in hushed tones to avoid causing wildlife distress.</p>
+            </div>
+            <div style="background: rgba(0,0,0,0.25); padding: 1rem; border-radius: var(--radius-sm);">
+              <strong style="color: var(--color-accent); font-size: 0.85rem; text-transform: uppercase;">Licensed Guides:</strong>
+              <p style="font-size: 0.84rem; color: #a9b8b0; margin-bottom: 0;">We partner exclusively with DWC-certified safari naturalists and licensed whale skippers.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 11. Sustainable Tourism Hub -->
+    <section class="section section-sand" aria-labelledby="sustain-heading">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">Responsible Travel</span>
+          <h2 id="sustain-heading">Travel Responsibly. Leave a Positive Footprint.</h2>
+          <p>Sustainable tourism is a core responsibility. Every journey should enrich local host communities and safeguard delicate ecosystems.</p>
+        </div>
+
+        <div class="responsible-grid">
+
+          <div class="responsible-card">
+            <h4>Support Local Communities</h4>
+            <p>Direct your tourism spend toward family-run guesthouses, certified local guides, and community-based dining.</p>
+          </div>
+
+          <div class="responsible-card">
+            <h4>Support Local Businesses</h4>
+            <p>Purchase authentic traditional handicrafts, handloom textiles, and spices directly from island artisans rather than mass factory imports.</p>
+          </div>
+
+          <div class="responsible-card">
+            <h4>Protect Fragile Wildlife</h4>
+            <p>Decline elephant back rides, avoid unlicensed animal selfies, and patronize reputable ethical sanctuaries like Udawalawe Transit Home.</p>
+          </div>
+
+          <div class="responsible-card">
+            <h4>Eliminate Single-Use Plastic</h4>
+            <p>Carry refillable water flasks; Sri Lanka provides abundant filtered refill points across reputable boutique properties.</p>
+          </div>
+
+          <div class="responsible-card">
+            <h4>Respect Sacred Traditions</h4>
+            <p>Cover shoulders and knees when visiting Buddhist and Hindu shrines, remove footwear and headwear, and never pose with your back to Buddha statues.</p>
+          </div>
+
+          <div class="responsible-card">
+            <h4>Protect Coral Ecosystems</h4>
+            <p>Use reef-safe mineral sunscreen and never stand on or touch coral formations in Pigeon Island, Hikkaduwa, or Bar Reef.</p>
+          </div>
+
+          <div class="responsible-card">
+            <h4>Choose Sustainable Stays</h4>
+            <p>Prioritize hotels utilizing solar power, rainwater harvesting, composting, and fair local employment policies.</p>
+          </div>
+
+          <div class="responsible-card">
+            <h4>Follow Park Regulations</h4>
+            <p>Stay strictly on designated national park vehicle tracks to preserve sensitive topsoil and nesting grounds.</p>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="sustainable-tourism.html" class="btn btn-outline">Read Our Full Sustainability Charter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Interactive FAQ Accordion -->
+    <section class="section section-white" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Practical Information</span>
+          <h2 id="faq-heading">Frequently Asked Questions</h2>
+          <p>Clear, practical guidance to help plan your journey to Sri Lanka.</p>
+        </div>
+
+        <div class="faq-container">
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What is the best time to visit Sri Lanka?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sri Lanka is truly a year-round destination because its two distinct monsoon systems alternate across the island. The south and west coasts, along with the central hill country, experience their best weather from <strong>December to April</strong>. Conversely, the east and northern coasts (Trincomalee, Pasikuda, Jaffna) enjoy warm, dry sunshine from <strong>May to September</strong>. When one coast has rain, the other is in peak season.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How many days do I need in Sri Lanka?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>To experience the classic highlights (Sigiriya, Kandy, a highland tea estate in Nuwara Eliya or Ella, a wildlife safari, and southern beaches), we recommend a minimum of <strong>7 to 10 days</strong>. If you wish to incorporate the cultural north (Jaffna) or deep east coast relaxation (Trincomalee), a <strong>14 to 21-day</strong> journey allows for a measured, immersive pace without rushing.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is Sri Lanka suitable for honeymoon travel?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sri Lanka is widely celebrated as one of the world's premier romantic destinations. It combines luxury colonial tea estate bungalows with private fireplaces, secluded coastal villas with private plunge pools, world-class Ayurvedic couple rituals, and spectacular Indian Ocean sunset dining—all within manageable, scenic transit distances.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What are the main wildlife destinations?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sri Lanka's top wildlife parks include <strong>Yala National Park</strong> (highest leopard density), <strong>Wilpattu National Park</strong> (leopards and sloth bears among natural villus), <strong>Minneriya &amp; Kaudulla</strong> (the Great Elephant Gathering), and <strong>Udawalawe National Park</strong> (year-round elephant herds). For marine life, Mirissa and Trincomalee offer world-class Blue Whale and dolphin watching.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What are the main cultural attractions?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>The foremost cultural landmarks belong to the UNESCO "Cultural Triangle", including the 5th-century <strong>Sigiriya Rock Fortress</strong>, the sacred cave sanctuaries of <strong>Dambulla</strong>, the ancient royal ruins of <strong>Anuradhapura and Polonnaruwa</strong>, the <strong>Temple of the Sacred Tooth Relic</strong> in Kandy, and the Dutch-colonial ramparts of <strong>Galle Fort</strong>.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How can I travel around Sri Lanka?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>The most comfortable, flexible way for international visitors is hiring a private vehicle with an English-speaking licensed chauffeur-guide. Additionally, taking the scenic hill country train between Kandy, Nanu Oya (Nuwara Eliya), and Ella is a bucket-list experience celebrated globally for its panoramic tea plantation vistas.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What should I pack?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Pack lightweight, breathable cotton or linen clothing for coastal areas. Bring modest white or light-colored attire that covers shoulders and knees for temple visits. For the hill country (Nuwara Eliya, Ella), temperatures drop in the evening, so pack a light fleece or warm sweater. Sturdy walking shoes, reef-safe sunscreen, and insect repellent are also essential.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What currency is used in Sri Lanka?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>The official currency is the <strong>Sri Lankan Rupee (LKR)</strong>. Major credit cards (Visa, Mastercard) are widely accepted in star-class hotels, supermarkets, and established restaurants in tourist towns. It is advisable to carry modest amounts of cash in LKR for local fruit stalls, tuk-tuks, and village donations.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I customise a tour?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. All itineraries featured on Ceylon Escapes can be tailored to match your personal interests, pace, travel style, and accommodation preferences. Simply submit our <a href="contact.html" style="color: var(--color-secondary); font-weight: 600; text-decoration: underline;">online enquiry form</a> with your requirements.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container-wide">
+      <div class="footer-top">
+
+        <!-- Brand Col -->
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="brand-name">Ceylon Escapes</span>
+            <span class="brand-sub">Discover Sri Lanka. Experience the Extraordinary.</span>
+          </div>
+          <p>Ceylon Escapes is a digital tourism platform designed to inspire travellers to explore Sri Lanka's destinations, culture, wildlife, beaches, cuisine, wellness experiences and hospitality products.</p>
+          <div class="social-links">
+            <a href="https://instagram.com" class="social-btn" aria-label="Instagram" target="_blank" rel="noopener">📷</a>
+            <a href="https://facebook.com" class="social-btn" aria-label="Facebook" target="_blank" rel="noopener">📘</a>
+            <a href="https://youtube.com" class="social-btn" aria-label="YouTube" target="_blank" rel="noopener">▶️</a>
+            <a href="https://linkedin.com" class="social-btn" aria-label="LinkedIn" target="_blank" rel="noopener">💼</a>
+          </div>
+        </div>
+
+        <!-- Explore Links -->
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
+            <li><a href="tours.html">Tours &amp; Packages</a></li>
+            <li><a href="stays.html">Hospitality &amp; Stays</a></li>
+            <li><a href="food-culture.html">Food &amp; Culture</a></li>
+            <li><a href="wildlife.html">Wild Sri Lanka</a></li>
+          </ul>
+        </div>
+
+        <!-- Travel Guide & Ethics -->
+        <div class="footer-col">
+          <h4>Travel</h4>
+          <ul class="footer-links">
+            <li><a href="travel-guide.html">Travel Guide</a></li>
+            <li><a href="sustainable-tourism.html">Sustainable Tourism</a></li>
+            <li><a href="#faq-heading">Frequently Asked Questions</a></li>
+            <li><a href="about.html">About Ceylon Escapes</a></li>
+            <li><a href="contact.html">Contact &amp; Enquiries</a></li>
+            <li><a href="credits.html">Image Sources &amp; Credits</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="footer-col">
+          <h4>Stay Inspired</h4>
+          <p style="font-size: 0.88rem; color: #a8b5ae; margin-top: 0;">Receive curated Sri Lankan travel insights, seasonal wildlife alerts, and destination guides.</p>
+          <form class="newsletter-form" aria-label="Newsletter Subscription">
+            <div class="input-group">
+              <input type="email" placeholder="Your email address" aria-label="Email address for newsletter" required>
+              <button type="submit" aria-label="Subscribe">Join</button>
+            </div>
+            <span class="newsletter-disclaimer">We respect your privacy. Unsubscribe at any time.</span>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Bottom Credits & Academic Assignment Disclaimer -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Ceylon Escapes. All rights reserved. | 
+          <a href="about.html#academic" style="color: var(--color-accent-light); font-weight: 600;">Academic Project &bull; University of Colombo</a>
+        </div>
+        <div class="footer-bottom-links">
+          <a href="credits.html">Photo Credits &amp; Licensing</a>
+          <a href="sustainable-tourism.html">Responsible Travel Charter</a>
+          <a href="contact.html">Plan Your Trip</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" aria-label="Scroll back to top">&uarr;</button>
+
+  <!-- JavaScript Modules -->
+  <script src="js/main.js"></script>
+  <script src="js/search-filter.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/form-validation.js"></script>
+</body>
+</html>
